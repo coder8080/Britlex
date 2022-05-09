@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/britlex/static/css/main.582759fc.css",
+    "main.js": "/britlex/static/js/main.d38106ea.js",
+    "static/media/online-classes.svg": "/britlex/static/media/online-classes.a1ccaa3b269dc2efb672f5334884a53d.svg",
+    "static/media/languages.svg": "/britlex/static/media/languages.ed93d49bbb150d11bfb4de2ab6c6e6cd.svg",
+    "static/media/writing.svg": "/britlex/static/media/writing.d95aa1002f829e26dd3381cc11b86144.svg",
+    "static/media/about-us.svg": "/britlex/static/media/about-us.deffb40376cbb11ed14f8ebc82a78dcc.svg",
+    "static/media/listening.svg": "/britlex/static/media/listening.bf0b86e97c54ebfd29f7cb5affd991a5.svg",
+    "static/media/contact-us.svg": "/britlex/static/media/contact-us.aaea53d0975018d64273648d4bf78c20.svg",
+    "static/media/speaking.svg": "/britlex/static/media/speaking.42099c627c07e3b74b8db1c67b2b4553.svg",
+    "static/media/reading.svg": "/britlex/static/media/reading.d3e99f06de6cd82aab3e1b79c7c8383b.svg",
+    "static/media/personal-tuition.svg": "/britlex/static/media/personal-tuition.ccc663416f65c8f5d08df4ab68e47af4.svg",
+    "static/media/self-study.svg": "/britlex/static/media/self-study.20f447a8f92a3bffbaa5379913f8fa18.svg",
+    "static/media/light-bulb.svg": "/britlex/static/media/light-bulb.ab4143aa674acf5025f67878bc876b1f.svg",
+    "static/media/cross.svg": "/britlex/static/media/cross.a9050e8bd40783556f4f605311f61e78.svg",
+    "index.html": "/britlex/index.html",
+    "static/media/menu-icon.svg": "/britlex/static/media/menu-icon.5c87c801fab6121b643e8f7b759e6fcb.svg",
+    "main.582759fc.css.map": "/britlex/static/css/main.582759fc.css.map",
+    "main.d38106ea.js.map": "/britlex/static/js/main.d38106ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.582759fc.css",
+    "static/js/main.d38106ea.js"
+  ]
+}
