@@ -7,9 +7,9 @@ const Footer = () => (
       <Logo />
       <span className="links">
         <span className="link">Terms and Conditions</span>
-        &nbsp;•&nbsp;
+        <span className="divider">&nbsp;•&nbsp;</span>
         <span className="link">Privacy Policy</span>
-        &nbsp;•&nbsp;
+        <span className="divider">&nbsp;•&nbsp;</span>
         <span className="link">Cookie Policy</span>
       </span>
     </div>

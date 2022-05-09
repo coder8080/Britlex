@@ -10,4 +10,17 @@
   .link {
     cursor: pointer;
   }
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 360px) {
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+    }
+  }
 }

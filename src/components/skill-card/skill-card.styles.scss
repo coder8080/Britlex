@@ -13,6 +13,12 @@
     }
   }
 
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   @media screen and (min-width: 767px) {
     &.writing,
     &.reading {
@@ -43,7 +49,7 @@
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) and (min-width: 500px) {
     min-height: 500px;
 
     &.speaking,

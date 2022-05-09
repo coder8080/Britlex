@@ -18,13 +18,13 @@
 
     .card {
       padding-top: 2rem;
-      @media screen and (min-width: 767px) {
-        padding-right: 3rem;
-      }
       grid-area: card;
       display: flex;
       flex-direction: column;
 
+      @media screen and (min-width: 767px) {
+        padding-right: 3rem;
+      }
       @media screen and (max-width: 767px) {
         align-items: center;
       }
@@ -36,6 +36,9 @@
 
         @media screen and (max-width: 767px) {
           justify-content: center;
+          h1 {
+            text-align: center;
+          }
           .light-bulb {
             display: none;
           }
@@ -61,6 +64,9 @@
         justify-content: center;
         img {
           width: 70vw;
+          @media screen and (max-width: 575px) {
+            width: auto;
+          }
         }
       }
     }
@@ -87,6 +93,16 @@
         grid-template-areas:
           'speaking writing'
           'reading listening';
+      }
+
+      @media screen and (max-width: 500px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+          'speaking'
+          'writing'
+          'reading'
+          'listening';
       }
 
       .speaking {
@@ -165,6 +181,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          text-align: center;
 
           .number {
             font-weight: var(--font-semi-bold);
@@ -200,7 +217,6 @@
   }
 
   .contact-us {
-
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
@@ -209,23 +225,23 @@
       'image title'
       'image card';
 
-      .title-container {
-        grid-area: title;
-        padding-top: 50px;
-      }
+    .title-container {
+      grid-area: title;
+      padding-top: 50px;
+    }
 
     @media screen and (max-width: 767px) {
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto;
       grid-template-areas:
-      'title'
+        'title'
         'image'
         'card';
 
-        .title-container {
-          text-align: center;
-          padding-bottom: 20px;
-        }
+      .title-container {
+        text-align: center;
+        padding-bottom: 20px;
+      }
 
       .image-container img {
         max-width: 60vw;
@@ -243,6 +259,11 @@
 
         .input-container {
           min-width: 70vw;
+          display: flex;
+
+          @media screen and (max-width: 340px) {
+            flex-direction: column;
+          }
 
           & > * {
             flex-grow: 1;
@@ -255,7 +276,6 @@
       grid-area: card;
 
       .description {
-        // margin-top: 30px;
         margin-bottom: 30px;
       }
 
