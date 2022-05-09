@@ -87,6 +87,9 @@
         .nav-item {
           font-weight: var(--font-medium);
           color: var(--header-color);
+          a {
+            color: var(--header-color);
+          }
         }
       }
 

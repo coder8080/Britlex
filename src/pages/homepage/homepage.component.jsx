@@ -11,7 +11,7 @@ import './homepage.styles.scss'
 
 const HomePage = () => (
   <div className="homepage container">
-    <section className="section learn-languages">
+    <section className="section learn-languages" id="home">
       <div className="card">
         <div className="heading-container">
           <h1>Learn any foreign language</h1>
@@ -22,14 +22,16 @@ const HomePage = () => (
           able to make your first sketch after the first lesson.
         </p>
         <div className="button-container">
-          <Button big={true}>Get started</Button>
+          <Button big={true} href="#skills">
+            Get started
+          </Button>
         </div>
       </div>
       <div className="image-container">
         <img src={Languages} alt="Learn Languages" />
       </div>
     </section>
-    <section className="section skills">
+    <section className="section skills" id="skills">
       <div className="title-container">
         <h2>Skills</h2>
       </div>
@@ -39,7 +41,7 @@ const HomePage = () => (
         ))}
       </div>
     </section>
-    <section className="section about-us">
+    <section className="section about-us" id="about">
       <div className="title-container">
         <h2>About us</h2>
       </div>
@@ -70,13 +72,13 @@ const HomePage = () => (
         <img src={AboutUs} alt="About Us" />
       </div>
     </section>
-    <section className="section pricing">
+    <section className="section pricing" id="pricing">
       <div className="title-container">
         <h2>Pricing</h2>
       </div>
       <StudyPlans />
     </section>
-    <section className="section contact-us">
+    <section className="section contact-us" id="contact">
       <div className="title-container">
         <h2>Contact us</h2>
       </div>

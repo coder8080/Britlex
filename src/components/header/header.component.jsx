@@ -7,6 +7,7 @@ import './header.styles.scss'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
+  const closeMenu = () => setShowMenu(false)
   const toggleMenu = () => setShowMenu((prev) => !prev)
   return (
     <div className="header">
@@ -25,13 +26,35 @@ const Header = () => {
             <Logo />
           </div>
           <ul className="nav-list">
-            <li className="nav-item">Home</li>
-            <li className="nav-item">Skills</li>
-            <li className="nav-item">About Us</li>
-            <li className="nav-item">Pricing</li>
-            <li className="nav-item">Contacts</li>
+            <li className="nav-item">
+              <a href="#home" onClick={closeMenu}>
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#skills" onClick={closeMenu}>
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#about" onClick={closeMenu}>
+                About Us
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#pricing" onClick={closeMenu}>
+                Pricing
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" onClick={closeMenu}>
+                Contacts
+              </a>
+            </li>
           </ul>
-          <Button className="talk-button outline">Let's Talk</Button>
+          <Button className="talk-button outline" href="#skills">
+            Let's Talk
+          </Button>
           <div className="close-menu" onClick={toggleMenu}>
             <img src={Cross} alt="Close" />
           </div>

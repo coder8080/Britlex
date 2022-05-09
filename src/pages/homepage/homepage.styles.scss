@@ -1,6 +1,6 @@
 .homepage {
-  .section {
-    padding-bottom: 70px;
+  .section:not(#home) {
+    padding-top: 70px;
   }
 
   .learn-languages {
@@ -219,6 +219,7 @@
   .contact-us {
     display: grid;
     gap: 20px;
+    padding-bottom: 50px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:

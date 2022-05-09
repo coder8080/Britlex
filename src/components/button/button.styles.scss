@@ -5,6 +5,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: var(--button-font-size);
+  display: inline-block;
 
   @media screen and (max-width: 800px) {
     padding: 15px 20px;
