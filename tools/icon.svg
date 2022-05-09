@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46667 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3273709"
+     inkscape:cx="308.50457"
+     inkscape:cy="271.21281"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px"
+     width="512px" />
+  <defs
+     id="defs2">
+    <rect
+       x="39.90501"
+       y="29.846358"
+       width="443.84612"
+       height="448.23685"
+       id="rect75403" />
+    <rect
+       x="59.033517"
+       y="45.690648"
+       width="395.77765"
+       height="392.54641"
+       id="rect54821" />
+    <font
+       horiz-adv-x="1024"
+       id="font9"
+       inkscape:label="font 1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="512"
+       vert-origin-y="768"
+       vert-adv-y="1024">
+      <font-face
+         units-per-em="1024"
+         id="font-face11"
+         font-family="Poppins Regular" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph13" />
+    </font>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text54819"
+       style="line-height:1.25;font-family:Poppins;font-size:320.00000403px;-inkscape-font-specification:'Poppins, Normal';white-space:pre;shape-inside:url(#rect54821)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.42810008,0,0,0.4436469,3.1322571,-39.468374)"
+       id="text75401"
+       style="font-size:397.333px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';white-space:pre;shape-inside:url(#rect75403)"><tspan
+         x="39.904297"
+         y="377.51208"
+         id="tspan126198">B</tspan></text>
+  </g>
+</svg>

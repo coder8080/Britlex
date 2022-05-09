@@ -1,0 +1,30 @@
+.study-plan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .price-container {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    align-items: center;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    .description {
+      text-align: center;
+    }
+  }
+}

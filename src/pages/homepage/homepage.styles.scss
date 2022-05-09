@@ -1,0 +1,274 @@
+.homepage {
+  .section {
+    padding-bottom: 70px;
+  }
+
+  .learn-languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'card image';
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        'image'
+        'card';
+    }
+
+    .card {
+      padding-top: 2rem;
+      @media screen and (min-width: 767px) {
+        padding-right: 3rem;
+      }
+      grid-area: card;
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (max-width: 767px) {
+        align-items: center;
+      }
+
+      .heading-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        @media screen and (max-width: 767px) {
+          justify-content: center;
+          .light-bulb {
+            display: none;
+          }
+        }
+      }
+
+      .description {
+        margin: 2rem 0;
+        @media screen and (max-width: 767px) {
+          width: 70vw;
+          text-align: center;
+        }
+      }
+    }
+
+    .image-container {
+      grid-area: image;
+      margin-top: -50px;
+      display: flex;
+      align-items: center;
+
+      @media screen and (max-width: 767px) {
+        justify-content: center;
+        img {
+          width: 70vw;
+        }
+      }
+    }
+  }
+
+  .skills {
+    .title-container {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    .skills-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas:
+        'speaking writing reading'
+        'speaking listening listening';
+
+      @media screen and (max-width: 767px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+          'speaking writing'
+          'reading listening';
+      }
+
+      .speaking {
+        grid-area: speaking;
+      }
+
+      .writing {
+        grid-area: writing;
+      }
+
+      .reading {
+        grid-area: reading;
+      }
+
+      .listening {
+        grid-area: listening;
+      }
+    }
+  }
+
+  .about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      'title image'
+      'text image';
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, auto);
+      grid-template-areas:
+        'title'
+        'image'
+        'text';
+
+      .title-container {
+        justify-content: center;
+        padding-bottom: 20px;
+      }
+    }
+
+    .title-container {
+      grid-area: title;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .card {
+      grid-area: text;
+      padding-right: 70px;
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (max-width: 767px) {
+        padding-right: 0;
+        align-items: center;
+      }
+
+      .description {
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+        @media screen and (max-width: 767px) {
+          text-align: center;
+          width: 70vw;
+        }
+      }
+
+      .data {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+
+        .data-fragment {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .number {
+            font-weight: var(--font-semi-bold);
+            font-size: var(--h2-font-size);
+            color: var(--number-color);
+          }
+        }
+      }
+    }
+
+    .image-container {
+      grid-area: image;
+      display: flex;
+      align-items: center;
+
+      @media screen and (max-width: 767px) {
+        justify-content: center;
+        img {
+          max-width: 60vw;
+        }
+      }
+    }
+  }
+
+  .pricing {
+    .title-container {
+      text-align: center;
+
+      @media screen and (max-width: 767px) {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .contact-us {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'image title'
+      'image card';
+
+      .title-container {
+        grid-area: title;
+        padding-top: 50px;
+      }
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+      'title'
+        'image'
+        'card';
+
+        .title-container {
+          text-align: center;
+          padding-bottom: 20px;
+        }
+
+      .image-container img {
+        max-width: 60vw;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .description {
+          text-align: center;
+          max-width: 70vw;
+        }
+
+        .input-container {
+          min-width: 70vw;
+
+          & > * {
+            flex-grow: 1;
+          }
+        }
+      }
+    }
+
+    .card {
+      grid-area: card;
+
+      .description {
+        // margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .input-container {
+        display: flex;
+        gap: 0.5rem;
+      }
+    }
+
+    .image-container {
+      grid-area: image;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
