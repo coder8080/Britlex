@@ -1,6 +1,6 @@
-import SelfStudy from '../../assets/self-study.png'
-import OnlineClasses from '../../assets/online-classes.png'
-import PersonalTuition from '../../assets/personal-tuition.png'
+import SelfStudy from '../../assets/self-study.svg'
+import OnlineClasses from '../../assets/online-classes.svg'
+import PersonalTuition from '../../assets/personal-tuition.svg'
 
 const STUDY_PLANS_DATA = [
   {

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Button from '../button/button.component'
 import Logo from '../logo/logo.component'
 import Cross from '../../assets/cross.svg'
-import Menu from '../../assets/menu-icon.png'
+import Menu from '../../assets/menu-icon.svg'
 import './header.styles.scss'
 
 const Header = () => {
